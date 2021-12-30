@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainSceneController">
+   <children>
+      <BorderPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0">
+         <effect>
+            <Glow />
+         </effect>
+         <top>
+            <Label prefHeight="53.0" prefWidth="90.0" text="Sweets" textFill="#a11c6c" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="24.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <PasswordField fx:id="sweetsPassword" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#sweetsBtnClicked" prefHeight="46.0" prefWidth="81.0" text="Access" textAlignment="CENTER" BorderPane.alignment="TOP_CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </bottom>
+      </BorderPane>
+      <BorderPane layoutX="300.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0">
+         <effect>
+            <Glow />
+         </effect>
+         <top>
+            <Label prefHeight="53.0" prefWidth="90.0" text="Soups" textAlignment="CENTER" textFill="#9c7b11" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="24.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <PasswordField fx:id="soupsPassword" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#soupsBtnClicked" prefHeight="46.0" prefWidth="81.0" text="Access" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </bottom>
+      </BorderPane>
+      <BorderPane layoutX="587.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0">
+         <effect>
+            <Glow />
+         </effect>
+         <top>
+            <Label prefHeight="54.0" prefWidth="116.0" text="Dinners" textAlignment="CENTER" textFill="#345fb4" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="24.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <PasswordField fx:id="dinnersPassword" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#dinnersBtnClicked" prefHeight="46.0" prefWidth="81.0" text="Access" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </bottom>
+      </BorderPane>
+      <BorderPane layoutX="14.0" layoutY="343.0" prefHeight="200.0" prefWidth="200.0">
+         <effect>
+            <Glow />
+         </effect>
+         <top>
+            <Label prefHeight="54.0" prefWidth="154.0" text="Breakfasts" textAlignment="CENTER" textFill="#188e63" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="24.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <PasswordField fx:id="breakfastsPassword" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#breakfastsBtnClicked" prefHeight="46.0" prefWidth="81.0" text="Access" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </bottom>
+      </BorderPane>
+      <BorderPane layoutX="301.0" layoutY="343.0" prefHeight="200.0" prefWidth="200.0">
+         <effect>
+            <Glow />
+         </effect>
+         <top>
+            <Label prefHeight="54.0" prefWidth="154.0" text="Christmas" textAlignment="CENTER" textFill="#cf1a1a" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="24.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <PasswordField fx:id="christmasPassword" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#christmasBtnClicked" prefHeight="46.0" prefWidth="81.0" text="Access" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </bottom>
+      </BorderPane>
+      <BorderPane layoutX="587.0" layoutY="343.0" prefHeight="200.0" prefWidth="200.0">
+         <effect>
+            <Glow />
+         </effect>
+         <top>
+            <Label prefHeight="54.0" prefWidth="154.0" text="Cocktails" textAlignment="CENTER" textFill="#6d098f" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="24.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <PasswordField fx:id="cocktailsPassword" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#cocktailsBtnClicked" prefHeight="46.0" prefWidth="81.0" text="Access" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </bottom>
+      </BorderPane>
+      <Line endX="566.9999389648438" layoutX="234.0" layoutY="271.0" startX="-233.99998474121094" strokeLineCap="ROUND">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Line>
+      <Line endX="-2.5" endY="320.0" layoutX="256.0" layoutY="237.0" startX="-2.5" startY="-237.0">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Line>
+      <Line endX="-14.70001220703125" endY="312.0" layoutX="557.0" layoutY="245.0" startX="-14.70001220703125" startY="-245.0">
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </Line>
+   </children>
+</AnchorPane>
