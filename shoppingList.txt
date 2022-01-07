@@ -1,17 +1,2 @@
-all-purpose flour 120.0 grams
-granulated sugar 2.0 tablespoons
-baking powder 1.25 teaspoons
-baking soda 0.25 teaspoons
-kosher salt 0.25 teaspoons
-yogurt 1.0 cup
-eggs 2.0 large eggs
-melted unsalted butter 2.0 tablespoons
-whole milk 0.25 cup
-maple syrup 1.0 tablespoon
-all-purpose flour 120.0 grams
-granulated sugar 2.0 tablespoons
-baking powder 1.25 teaspoons
-baking soda 0.25 teaspoons
-melted unsalted butter 2.0 tablespoons
-whole milk 0.25 cup
-maple syrup 1.0 tablespoon
+lime juice 0.5 cup
+tequila 0.25 cup
